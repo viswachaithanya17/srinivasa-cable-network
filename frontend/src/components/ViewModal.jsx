@@ -66,7 +66,7 @@ function ViewModal({ record, close }) {
                         src={
                           record.image.startsWith("data:")
                             ? record.image
-                            : `http://localhost:5000/uploads/${record.image}`
+                            : `https://srinivasa-cable-network.onrender.com/uploads/${record.image}`
                         }
                         alt="Record"
                         className="img-fluid rounded"

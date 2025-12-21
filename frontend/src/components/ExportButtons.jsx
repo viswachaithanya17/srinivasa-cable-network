@@ -27,7 +27,7 @@ function ExportButtons({ records }) {
             className="dropdown-item"
             onClick={async () => await downloadRecordsPDF()}
           >
-            Download PDF (A4 with Images)
+            Download PDF
           </button>
         </li>
       </ul>

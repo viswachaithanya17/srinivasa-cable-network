@@ -46,7 +46,7 @@ function RecordTable({ records, onEdit, onDelete }) {
                       src={
                         r.image.startsWith("data:")
                           ? r.image
-                          : `http://localhost:5000/uploads/${r.image}`
+                          : `https://srinivasa-cable-network.onrender.com/uploads/${r.image}`
                       }
                       width="50"
                       height="50"
